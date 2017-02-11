@@ -2,6 +2,7 @@ package project.aamir.sheikh.eandpedittext;
 
 import android.content.Context;
 import android.content.res.TypedArray;
+import android.graphics.Color;
 import android.graphics.PorterDuff;
 import android.graphics.PorterDuffColorFilter;
 import android.graphics.Typeface;
@@ -105,7 +106,7 @@ public class EEditText extends LinearLayout {
 
     private void showError(Context c) {
         if (tick.getVisibility() == View.VISIBLE) {
-            tick.setBackgroundColor(getResources().getColor(R.color.transparent));
+            tick.setImageResource(R.drawable.ic_error_red_800_18dp);
         }
 
         float scale = getResources().getDisplayMetrics().density;
