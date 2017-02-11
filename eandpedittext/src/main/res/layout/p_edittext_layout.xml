@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/main_height"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/icon_bg2"
+            android:layout_width="@dimen/icon_bg_width"
+            android:layout_height="@dimen/icon_bg_height"
+            android:background="@color/icon_color_bg"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/icon"
+                android:layout_width="@dimen/icon_width"
+                android:layout_height="@dimen/icon_height"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_lock_white_24dp"
+
+                />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:background="@color/white">
+
+            <LinearLayout
+                android:layout_width="0px"
+                android:layout_height="0px"
+                android:focusable="true"
+                android:focusableInTouchMode="true" />
+
+            <EditText
+                android:id="@+id/input_pass"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/main_height"
+                android:layout_marginLeft="8dp"
+                android:hint="Enter Your Password"
+                android:inputType="textPassword"
+                android:nextFocusLeft="@+id/input_pass"
+                android:nextFocusUp="@+id/input_pass"
+                android:paddingLeft="8dp"
+                android:paddingRight="40dp"
+                android:paddingTop="15dp"
+                android:textColor="@color/icon_color_bg"
+                android:textColorHint="@color/icon_color_bg" />
+
+            <LinearLayout
+                android:id="@+id/linear_eye"
+                android:layout_width="@dimen/icon_bg_width"
+                android:layout_height="@dimen/icon_bg_height"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/eye"
+                    android:layout_width="@dimen/eye_width"
+                    android:layout_height="@dimen/eye_width"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_remove_red_eye_black_18dp" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="-7dp"
+                android:src="@drawable/ic_play_arrow_black_18dp" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

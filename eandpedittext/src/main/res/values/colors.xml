@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+    <color name="icon_color_bg">#025b5b</color>
+    <color name="white">#FFFFFF</color>
+</resources>

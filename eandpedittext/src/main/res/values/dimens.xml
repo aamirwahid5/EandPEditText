@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="arrow_dimen">-7dp</dimen>
+    <dimen name="icon_width">24dp</dimen>
+    <dimen name="icon_height">24dp</dimen>
+    <dimen name="icon_bg_width">48dp</dimen>
+    <dimen name="icon_bg_height">48dp</dimen>
+    <dimen name="main_height">48dp</dimen>
+    <dimen name="eye_width">18dp</dimen>
+</resources>
